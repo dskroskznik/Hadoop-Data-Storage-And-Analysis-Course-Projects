@@ -1,3 +1,3 @@
-# Analyzing AD Campaign Data - Hadoop PIG Query 
+# Analyzing AD Campaign Data - Hadoop PIG Querying
 ---
 ### Overview
