@@ -48,7 +48,7 @@ This portion of the project uses Hive to focus on analyzing customer behavior, p
   4. Abandoned product data is extracted using the `REGEXP EXTRACT` function to locate product IDs.
      - Tables are created to record product data from a joint weblogs table.
   5. Shipping costs are calculated using **User Defined Functions (UDF)** to estimate costs from given ZIP codes and item weights.
-     The `cart_orders` table is created to sum up all shipping, price, and wholesale costs.
+     - The `cart_orders` table is created to sum up all shipping, price, and wholesale costs.
 
 ![image](https://github.com/user-attachments/assets/3145d9a7-fef7-488c-85f7-a0a7f03a62d6)
 ![image](https://github.com/user-attachments/assets/f1985650-8c78-491f-a8ef-9af41b0ca16f)
