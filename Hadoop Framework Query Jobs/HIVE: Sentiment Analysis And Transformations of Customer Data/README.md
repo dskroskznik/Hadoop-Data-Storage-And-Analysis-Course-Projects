@@ -26,7 +26,6 @@ The portion applied Hive text processing to analyze customer product ratings and
       TABLE RATINGS
         timestamp, customerid, productid, rating, message string
   ```
-- 
 - The analysis involves two main steps:
   - Numeric ratings analysis identifies products with the highest and lowest average ratings, focusing on those with at least 50 ratings.
   - Next, rating comments analysis uses queries `SELECT FROM and LIKE` to examine customer messages for popular products.
@@ -37,5 +36,8 @@ The portion applied Hive text processing to analyze customer product ratings and
 ![image](https://github.com/user-attachments/assets/b92bb03e-f32b-41d9-a306-5ed5857afb6a)
 ![image](https://github.com/user-attachments/assets/f6b87be1-afe2-4d6d-8c01-a6df593aa9aa)
 ![image](https://github.com/user-attachments/assets/f5dc09e4-8e11-4fe1-9a62-c7cfbcf93e6b)
+
+
+
 
 
